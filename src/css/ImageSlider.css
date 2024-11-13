@@ -1,0 +1,16 @@
+.image-slider {
+    
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+
+  .image-slider.slide-animation {
+
+    animation: slideAnimation 10s linear infinite;
+  }
+
+  .slick-dots li button{
+    font-size: 10px;
+    color: white
+  }

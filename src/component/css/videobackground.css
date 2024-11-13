@@ -1,0 +1,90 @@
+/* src/components/VideoBackground.css */
+.video-background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  line-height: 100px;
+}
+
+.overlay .content {
+  text-align: center;
+}
+
+.overlay h1 {
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  opacity: 0;
+  animation: fadeIn 5s forwards;
+  margin-bottom: 50px; /* 제목과 버튼 사이의 공간 설정 */
+}
+.overlay h2 {
+  color: white;
+  font-size: 3rem;
+  opacity: 0;
+  animation: fadeIn 5s forwards 0.5s;
+  margin-bottom: 50px; 
+}
+
+.overlay h4{
+  color: white;
+  font-size: 2em;
+  opacity: 0;
+  animation: fadeIn 5s forwards 1s;
+
+}
+
+
+
+.start-button {
+  padding: 20px;
+  font-size: 30px;
+  background-color: #ffffff00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  animation: fadeIn 5s forwards 2s; 
+}
+
+.start-button:hover {
+  background: rgba(0, 0, 0, 0.7);
+ 
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 0;
+  }
+}
+
+.start-button a {
+  text-decoration: none;
+  color: white;
+ 
+}
+#button10{
+  text-align: center;
+}

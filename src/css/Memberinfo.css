@@ -1,0 +1,129 @@
+#memlist {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  margin-top: 150px;
+  min-height: 800px;
+  height: 100%;
+}
+
+#memlist #menu {
+  width: 200px;
+  margin-right: 20px;
+  height: auto;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box; 
+  min-height: 800px;
+  height: 100%;
+}
+
+#memlist #menu ul {
+  list-style-type: none;
+  margin-top: 150px;
+  padding: 0; 
+  margin-bottom: 50px;
+}
+
+#memlist #menu ul div {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#memlist #menu ul li {
+  margin-bottom: 5px; 
+   
+}
+
+#memlist #menu ul li a {
+  text-decoration: none;
+  color: #4C4C4C;
+}
+
+#memlist #menu ul li a:hover {
+  color: black;
+}
+
+#memlist #content {
+  width: calc(100% - 240px); /* 메뉴 너비와 margin-right 합산 */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#memlist .container {
+  width: 100%;
+}
+
+#memlist .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* 모든 항목을 수직으로 가운데 정렬 */
+  border-bottom: 1px solid #ccc;
+}
+
+#memlist .col {
+  padding: 10px;
+  flex: 1; /* 모든 컬럼이 동일한 넓이를 가지도록 설정 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#memlist .col a {
+  text-decoration: none;
+  color: black;
+}
+
+#memlist #sub {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#memlist #name1 {
+  background-color: #F7F9F6;
+  border-radius: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  margin: 0 10px;
+}
+
+#memlist #oppg {
+  font-weight: bold;
+  font-size: 1.1em; 
+}
+
+#memlist #sorted {
+  text-align: right;
+}
+
+#memlist #sorted button {
+  background-color: #ddd;
+  border: none;
+  margin-left: 10px;
+}

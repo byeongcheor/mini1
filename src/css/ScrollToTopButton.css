@@ -1,0 +1,22 @@
+/* src/ScrollToTopButton.css */
+
+/* src/ScrollToTopButton.css */
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 1000;
+  }
+  
+  .scroll-to-top-button {
+    width: 50px;  /* 이미지의 크기를 적절히 조절합니다 */
+    height: 50px; /* 이미지의 크기를 적절히 조절합니다 */
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .scroll-to-top-button:hover {
+    opacity: 0.8;
+  }
+  

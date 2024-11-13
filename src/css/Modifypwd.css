@@ -1,0 +1,179 @@
+#changepwd {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+    margin-top: 100px;
+    min-height: 800px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#changepwd #menu {
+    width: 200px;
+    min-height: 800px;
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#changepwd #menu ul {
+    list-style-type: none;
+    margin: 80px 0 50px 0;
+    padding: 0;
+}
+
+#changepwd #menu ul div {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#changepwd #menu ul li {
+    margin-bottom: 20px;
+}
+
+#changepwd #menu ul li a {
+    text-decoration: none;
+    color: #4C4C4C;
+}
+
+#changepwd #menu ul li a:hover {
+    color: black;
+}
+
+#changepwd #content {
+    flex-grow: 1;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#changepwd .form-control {
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#changepwd .bt button {
+    background-color: #4C4C4C;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: 50px;
+    font-size: 1.2em;
+}
+
+#changepwd .bt button:hover {
+    background-color: black;
+}
+
+#changepwd #main {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#changepwd #content p {
+    font-weight: bold;
+    margin: 60px auto;
+    font-size: 1.3em;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 100PX;
+}
+
+#changepwd .lb1 {
+    text-align: left;
+    line-height: 40px;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#changepwd .newpwd {
+    text-align: left;
+    line-height: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#changepwd .Login-form-center {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+#changepwd .Login-form-center h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#changepwd .Login-form-center .form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#changepwd .Login-form-center .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#changepwd .Login-form-center .Error-message {
+    color: red;
+    font-size: 0.875em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+#changepwd .Login-form-center .button {
+    text-align: center;
+}
+
+#changepwd .Login-form-center .btn {
+    padding: 10px 20px;
+    background-color: #4C4C4C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#changepwd .Login-form-center .btn:hover {
+    background-color: black;
+}
+
+#changepwd #oppg {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#changepwd #content .button > button {
+    background-color: #4C4C4C;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 0;
+    width: 15%;
+    height: 50px;
+    font-size: 1.2em;
+}
+
+#changepwd #content .button > button:hover {
+    background-color: black;
+}

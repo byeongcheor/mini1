@@ -1,0 +1,186 @@
+
+.Plant {
+    
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.topImg{
+    width: 100%;
+    margin:  auto; 
+    position: relative;
+}
+.topImg img{
+    width: 100%;
+    vertical-align: middle;
+    border-bottom-right-radius: 130px;
+}
+.pageTopText{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+}
+.pageTopText h1{
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
+}
+.topText{
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+}
+.pageMiddle{
+    
+    display: flex;
+    align-items: start;
+    justify-content: stretch;
+    padding: 5rem 5rem 1.25rem 5rem;
+}
+.pageFilter{
+    
+    
+    display: flex;
+    
+   
+    
+    width: 270px;
+    flex-basis: 270px;
+    flex-shrink: 0;
+    padding: 0 15px;
+    
+}
+.search{
+    width: 240px;
+    height: 40px;
+   
+    
+}
+.search2{
+    display: flex;
+    width: 240px;
+    height: 40px;
+    
+    align-items: center;
+    justify-content: start;
+    border-radius: 8px;
+    border: 1px solid #DBDBDB;
+    margin-bottom: 16px
+}
+
+.search img{
+    display: flex;
+    flex-basis: 40px;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+}
+.search2 input{
+    width: 192px;
+    color: #AAA;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+    background-color: transparent !important;
+    border: none !important;
+    outline: none;
+}
+.searchCheck{
+    width: 234px;
+    height: 367px;
+    margin-top: 20px;
+}
+.filterTitle{
+    height: 55px;
+    display : flex;
+  justify-content : left;
+  align-items : center;
+}
+.searchCheck2{
+    width: 234px;
+    height: 55px;
+    text-align: center;
+    font-weight: bold;
+}
+.plantType{
+    width: 234px;
+    height: 232px;
+}
+
+.plantType ul{
+    list-style-type: none;
+    color: #797878;
+    padding: 0;
+}
+.checkBox{
+    width: 234px;
+    height: 45px;
+}
+.middleTop{
+    width: 80%;
+    flex: 1 1;
+    justify-content: stretch;
+    
+    
+   
+}
+.filterResult{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 24px;
+   
+    align-items: center;
+   
+    
+   
+}
+.product_order{
+    
+    float: right;
+    
+}
+.product_order select{
+   height: 42px;
+   width: 140px;
+   margin: 0px;
+}
+.plantCareWrap{
+    width: 100%;
+    /* width: 1550px; */
+    height: 4132px;
+}
+
+.plantWrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.plantCnt{
+    display: flex;
+    flex-direction: column;
+    
+}
+.plantCnt img{
+    width: 100%;
+    height: auto;
+   
+}
+.plantCnt h3{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+}
+  
+
+.plantTitle{
+    text-align: center;
+}

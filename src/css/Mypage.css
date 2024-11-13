@@ -1,0 +1,17 @@
+#menu{
+ width: 160px; margin: 0 auto;text-align: center;padding-right: 15px;
+}
+
+ul,li{
+    list-style: none;margin:20px 0 10px 0; padding: 0; 
+}
+ul{ margin: 0 auto; padding-bottom :80px;  }
+ul>div{ 
+    font-weight: bold; font-size: 1.3em;padding-top: 80px;
+}
+li>a{
+    text-decoration: none; color:#969696 ;
+}
+li>a:hover{
+    text-decoration: none; color:black ;
+}

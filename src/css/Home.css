@@ -1,0 +1,16 @@
+.flog{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+.flog h2{
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items:center ;
+}

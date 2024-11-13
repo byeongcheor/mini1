@@ -1,0 +1,122 @@
+.Result {
+    margin: 10px;
+    padding: 70px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.searchMM {
+    padding: 0 200px;
+    flex-direction: column;
+}
+
+.searchMain {
+    align-items: start;
+    text-align: center;
+    padding: 0 5rem 1.25rem 5rem;
+}
+
+.contents {
+    text-align: center;
+    padding: 15px 0px 7px;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.Result_page:last-child {
+    border-bottom: 1px solid gray;
+}
+
+.Result h2 {
+    color: black;
+}
+
+#first {
+    color: black;
+    font-size: 1.2em;
+}
+
+#second {
+    color: red;
+    font-size: 1.2em;
+}
+
+.rtxt {
+    color: rgb(117, 117, 117);
+}
+
+.nthsearch {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+ul {
+    margin: 0px;
+}
+
+#more_info {
+    text-align: end;
+}
+
+.searchR {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.searchPP {
+    font-size: 1.3em;
+}
+
+.contents h4 {
+    font-size: 1.3em;
+}
+
+.contentsA {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    list-style: none;
+}
+
+.contentsA img {
+    max-width: 100%;
+    height: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.contentPlus {
+    float: right;
+    width: 140px;
+    height: 23px;
+}
+
+.contentsA a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(104, 103, 103);
+    line-height: 2;
+    text-decoration: none;
+}
+
+.contentsA a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.more_info a {
+    font-size: 1.1em;
+    color: rgb(70, 69, 69);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.more_info a:hover {
+    color: black;
+    font-weight: bold;
+}

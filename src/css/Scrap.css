@@ -1,0 +1,152 @@
+#scraplist {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+    margin-top: 100px;
+    min-height: 800px;
+    height: 100%;
+}
+
+#scraplist #menu {
+    width: 200px;
+    min-height: 800px;
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#scraplist #menu ul {
+    list-style-type: none;
+    margin: 80px 0 50px 0;
+    padding: 0;
+}
+
+#scraplist #menu ul div {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#scraplist #menu ul li {
+    margin-bottom: 20px;
+   
+}
+
+#scraplist #menu ul li a {
+    text-decoration: none;
+    color: #4C4C4C;
+}
+
+#scraplist #menu ul li a:hover {
+    color: black;
+}
+
+#scraplist #content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#scraplist .container {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 81%;
+}
+
+#scraplist #Scmenu {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#scraplist #Scmenu p {
+    margin-left: 15px; border-radius: 10px;
+}
+
+#scraplist #Scmenu a {
+    text-decoration: none;
+    color: #3f3a3a;
+    font-weight: bold;
+}
+
+#scraplist #Scmenu a:hover {
+    color: black;
+}
+
+#scraplist #name1 {
+    display: flex;
+ 
+   
+    background-color: #F7F9F6;
+    border-radius: 10px;
+}
+
+#scraplist .row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#scraplist .col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+#scraplist .col-lg-2 {
+    flex: 0 0 16.666667%;
+}
+
+#scraplist .col-lg-6 {
+    flex: 0 0 50%;
+}
+
+#scraplist .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#scraplist .pagination button {
+    background-color: #4C4C4C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scraplist .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#scraplist .pagination span {
+    font-weight: bold;
+}
+
+#scraplist #oppg {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#scraplist p {
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+#scraplist p:hover {
+    background-color: #ddd;
+}
+
+#scraplist #sub {
+    text-decoration: none;
+    color: #4C4C4C;
+}
+
+#scraplist #sub:hover {
+    color: black;
+}

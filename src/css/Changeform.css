@@ -1,0 +1,160 @@
+#changeform {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+    margin-top: 100px;
+    min-height: 800px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#changeform #menu {
+    width: 200px;
+    min-height: 800px;
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#changeform #menu ul {
+    list-style-type: none;
+    margin: 80px 0 50px 0;
+    padding: 0;
+}
+
+#changeform #menu ul div {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#changeform #menu ul li {
+    margin-bottom: 20px;
+}
+
+#changeform #menu ul li a {
+    text-decoration: none;
+    color: #4C4C4C;
+}
+
+#changeform #menu ul li a:hover {
+    color: black;
+}
+
+#changeform #content {
+    flex-grow: 1;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#changeform .form-control {
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#changeform .bt button {
+    background-color: #4C4C4C;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 0;
+    width:15%;
+    height: 50px;
+    font-size: 1.2em;
+}
+
+#changeform .bt button:hover {
+    background-color: black;
+}
+
+#changeform #main {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#changeform #content p {
+    
+    font-weight: bold;
+    margin: 60px auto;
+    font-size: 1.3em;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 100PX;
+}
+
+#changeform .lb1 {
+    text-align: left;
+    line-height: 40px;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#changeform #pre11 {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#changeform .Error-message {
+    color: red;
+    font-size: 0.875em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+#changeform .btn-dark {
+    background-color: #4C4C4C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#changeform .btn-dark:hover {
+    background-color: black;
+}
+
+#changeform #lb2, #lb3 {
+    text-align: left;
+}
+
+#changeform #oppg {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#changeform #content .newpwd {
+    text-align: left;
+    line-height: 40px;
+    border: 1px solid;
+}
+
+#changeform #content .button > button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #4C4C4C;
+    border: 1px solid;
+    font-size: 1.2em;
+    border-radius: 10px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#changeform #content .button > button:hover {
+    background-color: black;
+}
+.form-control{
+    border: 2px solid rgb(145, 145, 148);
+    outline: none; /* 기본 포커스 효과 제거 */
+}

@@ -1,0 +1,156 @@
+.inquiryList{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  margin-top: 100px;
+  min-height: 800px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#inquirylist {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  width: 100%;
+  /* margin: 30px auto;
+  margin-top: 100px; */
+  min-height: 800px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#inquirylist #menu {
+  width: 200px;
+  min-height: 800px;
+  border-right: 1px solid #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#inquirylist #menu ul {
+  list-style-type: none;
+  margin: 80px 0 50px 0;
+  padding: 0;
+}
+
+#inquirylist #menu ul div {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#inquirylist #menu ul li {
+  margin-bottom: 20px;
+}
+
+#inquirylist #menu ul li a {
+  text-decoration: none;
+  color: #4C4C4C;
+}
+
+#inquirylist #menu ul li a:hover {
+  color: black;
+}
+
+#inquirylist #content {
+  flex-grow: 1;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#inquirylist .container {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 81%;
+}
+
+#inquirylist #name1 {
+  display: flex;
+  background-color: #F7F9F6;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#inquirylist .row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#inquirylist .col {
+  flex: 1;
+  padding: 0 10px;
+}
+
+
+#inquirylist .col-lg-6 {
+  flex: 0 0 50%;
+}
+
+#inquirylist .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#inquirylist .pagination button {
+  background-color: #4C4C4C;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#inquirylist .pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#inquirylist .pagination span {
+  font-weight: bold;
+}
+
+#inquirylist #sub {
+  text-decoration: none;
+  color: #4C4C4C;
+}
+
+#inquirylist #sub:hover {
+  color: black;
+}
+
+#inquirylist #oppg {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+#inquirylist #sorted {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 20px;
+}
+
+#inquirylist #sorted button {
+  font-weight: bold;
+  color: #4C4C4C;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  margin-top: -9px;
+  cursor: pointer;
+}
+
+#inquirylist #sorted button:hover {
+  background-color: #ddd;
+}

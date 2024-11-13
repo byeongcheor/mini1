@@ -1,0 +1,138 @@
+.topbox {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  .topbox img {
+    width: 100%;
+    vertical-align: middle;
+    border-bottom-right-radius: 130px;
+    filter: brightness(70%);
+    overflow: hidden;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+  }
+
+.topbox h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 4em;
+    color: white;
+}
+.topbox h3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+
+
+}
+
+.EvtOn h2{
+    position: relative;
+    margin:-15%;
+    text-align: center;
+  
+}
+
+.EvtOn .imgsize{
+    margin-top: 5%;
+    
+}
+
+
+
+.imgsize {
+    width: 350px;
+    height: 350px;
+    position: relative; 
+}
+
+.imgsize img {
+    transition: transform 0.1s ease;
+}
+
+.imgsize img:hover {
+    transform: scale(1.1);
+}
+
+.Gre {
+    transition: transform 0.1s ease;
+}
+
+.Gre:hover {
+    transform: scale(1.1);
+}
+.Gre h2:hover{
+    margin: 0, auto;
+    padding: 0 auto;
+}
+
+.LstEvt img,
+.EvtOn img,
+.imgsize img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+    top: 10%;
+    left: 3%;
+}
+
+.LstEvt {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+
+.EvtOn {
+    position: relative; 
+    top: 25%;
+    display: flex;
+    gap: 8%;
+    justify-content: center;
+    margin:10%;
+}
+
+.Elo2, .Elo3, .Elo4 {
+    position: absolute;
+}
+
+.EvtOn img {
+    width: 360px;
+    height: 360px;
+}
+
+.Gre {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    opacity: 0.8;
+    background-color: grey;
+    border-radius: 50px;
+    
+}
+
+.LstEvt .imgsize h2 {
+    position: absolute;
+    top: 20%;
+    font-size: 30px;
+    padding: 15%;
+    z-index: 1;
+    color: lightgrey;
+}
+

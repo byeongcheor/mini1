@@ -1,0 +1,147 @@
+#mycommunitylist {
+    display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  margin-top: 100px;
+  min-height: 800px;
+  height: 100%;
+}
+
+#mycommunitylist #menu {
+    width: 200px;
+    min-height: 800px;
+    border-right: 1px solid #ccc;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#mycommunitylist #menu ul {
+    list-style-type: none;
+    margin: 80px 0 50px 0;
+    padding: 0;
+}
+
+#mycommunitylist #menu ul div {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#mycommunitylist #menu ul li {
+    margin-bottom: 20px;
+  
+}
+
+#mycommunitylist #menu ul li a {
+    text-decoration: none;
+    color: #4C4C4C;
+}
+
+#mycommunitylist  #menu ul li a:hover {
+    color: black;
+
+}
+
+#mycommunitylist #content {
+    flex-grow: 1;
+    
+}
+
+#mycommunitylist .container {
+    
+    margin: 0 auto; 
+    margin-top: 50px;
+    max-width: 79%;
+    
+    
+}
+
+#mycommunitylist #mymenu {
+    display: flex;
+   
+    margin-bottom: 20px;
+}
+
+#mycommunitylist #mymenu p {
+    
+   
+    margin-left: 15px; border-radius: 10px;
+}
+
+#mycommunitylist #mymenu a {
+    text-decoration: none;
+    color: #3f3a3a;
+    font-weight: bold;
+}
+
+#mycommunitylist #mymenu a:hover {
+    color: black;
+}
+
+#mycommunitylist #name1 {
+    display: flex;
+ 
+   
+    background-color: #F7F9F6;
+    border-radius: 10px;
+}
+
+#mycommunitylist .row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#mycommunitylist .col {
+    flex: 1;
+    padding: 0 10px;
+}
+
+#mycommunitylist .col-lg-2 {
+    flex: 0 0 16.666667%;
+}
+
+#mycommunitylist .col-lg-6 {
+    flex: 0 0 50%;
+}
+
+#mycommunitylist .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#mycommunitylist .pagination button {
+    background-color: #4C4C4C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mycommunitylist .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#mycommunitylist .pagination span {
+    font-weight: bold;
+}
+
+#mycommunitylist #sub{
+    text-decoration: none; color: #4C4C4C;
+}
+#mycommunitylist #sub:hover{color: black;
+
+}
+#mycommunitylist #oppg{
+    font-weight: bold;font-size: 1.1em;
+    
+}

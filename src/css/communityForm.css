@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Concert+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&family=Sail&display=swap');
+
+.community-edit-input{
+
+  /*제목부분*/
+  width: 100%;
+  margin: bottom 10px;
+  height: 30px;
+  padding: 10px 0px;
+  border: none !important;
+  border-bottom: 1px solid #DBDBDB !important;
+  font-size: 20px;
+  font-family: 'Material Symbols Outlined'
+  
+  }
+
+
+    .communityEdit-back-link{
+        margin:0px 0px 50px;
+        padding-top:30px;
+    }
+    .communityEdit-back-link>a:link, .communityEdit-back-link a:visited {
+        /*font-family: "Arvo", serif; 목록으로부분 */
+        font-family: 'Material Symbols Outlined';
+        text-decoration: none; 
+        color: black;
+        text-align: center;;
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 30px 0px;
+    }
+    
+
+    .community-edit-upload{/*가이드 글파트 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border-radius: 16px;
+        background: linear-gradient(0deg, #EAEAEA, #EAEAEA), linear-gradient(0deg, #FAFAFA, #FAFAFA);
+        border: 1px solid #EAEAEA;
+        text-align: center;
+        font-family: 'Material Symbols Outlined'
+        
+    }
+    .community-edit-upload-button{
+      background-color: #000;
+      color: #FFF;
+      min-width: max-content;
+      height: 40px;
+      border-radius: 12px;
+      align-items: center;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      padding: 0 32px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: color .3s cubic-bezier(.33, 1, .68, 1);
+      overflow: hidden;
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+    }
+
+    .community-edit-toolbar {/*작성완료 div*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 64px;
+      padding: 0px 20px;
+      font-size: 15px;
+      border-bottom: 1px solid #DBDBDB;
+  }
+  
+  .community-edit-toolbar button {/*작성완료 버튼*/
+      width: 50%;
+      margin-right: 45px;
+      font-size: 1.1em;
+      
+  }
+  .botton{/*댓글 버튼*/
+    width: 12%;
+    margin-right: 20px;
+    height:50px;
+    font-size: 1.1em;
+    
+}
+
+.communityEdit-News-form-center {
+  /*comunity from 전체*/
+    width: 75%;
+    margin: 120px auto;
+}
+.blank{
+  margin-bottom:50px;
+}
+.blank2{
+  margin-bottom:10px;
+}
+.community-section{
+    /*uploder 첨부 전체*/
+  position: relative;
+}
+.mb-8 {
+  margin-bottom: 2.5rem;
+  margin-top: 3rem;
+}
+.community-edit-delete {
+      /*uploder 휴지통*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  z-index: 2;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+}
+.output-image {
+   /*uploder 사진첨부*/
+  max-width: 85%;
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.inspiration-tabs--room {
+  /*uplodertext-area*/
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    white-space: pre-line !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+.community-edit-textarea {
+    /*uplodertext-area*/
+    padding: 10px 0px;
+    border: none !important;
+    border-bottom: 1px solid #DBDBDB !important;
+    font-size: 17px;
+    width:100%;
+    height: inherit;
+    resize: vertical;
+    font-family: 'Material Symbols Outlined';
+    text-align: center
+}
+
+.community-form-textarea{
+  width: 100%;
+  padding: 10px 0px;
+  border: none !important;
+  border-bottom: 1px solid #DBDBDB !important;
+  font-size: 17px;
+  font-family: 'Material Symbols Outlined';
+
+}
+/*-------------------여기 고처야될듯-------------------------------------*/
+
+  @media (max-width: 768px) {
+    .rich-text-media--container {
+        flex-wrap: wrap;
+    }
+}
+.rich-text-media--container {
+  /*게시글 디테일 프로필 전체*/
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    padding: 2.5rem 2rem;
+}
+
+
+  .rich-text-media--content {
+      order: 2;
+      text-align: center;
+      width: 100%;
+      text-rendering: optimizeLegibility;
+      --tw-bg-opacity: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+      font-family: 'Pretendard', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+  }
+
+.text-light {
+   /*디테일 게시글 좋아요 스크랩 조회수*/
+    color: #767676;
+    margin-right: 5px;
+   
+}
+.ml-3 {
+    margin-left: .75rem;
+    margin-left: 1.3rem !important;
+
+}
+.text-dark {
+  color: #333;
+}
+.text-center h5 { 
+  /*디테일 게시글 아이디*/
+  font-size: 18px;
+  margin: 18px;
+  
+ 
+}
+.text-center p {
+  font-size: 17px;
+  line-height: 24px;
+
+
+
+}
+
+
+.subheading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-avatar {
+    /*게시글 디테일 프로필 사진영역*/
+  border-radius: 50%;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 120px;
+  width: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+
+  .media-image-full .rich-text-media--wrapper {
+    padding: 0 0 4rem
+  }
+  
+  @media (max-width: 768px) {
+    .media-image-full .rich-text-media--wrapper {
+      padding-bottom: 2rem
+    }
+  }
+
+
+  /*댓글영역*/
+.community-review--container .community-review--list {
+
+    overflow: hidden; 
+    list-style-type: none;
+}
+.community-review--container .review-writer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.avatar-sm {
+  /*댓글프로필*/
+  height: 47px;
+  min-width: 47px;
+  width: 30px;
+}
+
+.review-writer p {
+  margin: 0;
+}
+.community-review--container .full {
+  /*댓글 남기는 박스*/
+  display: block;
+  flex: 1 1 auto !important;
+}
+.review-write-botton{
+    /*댓글 버튼*/
+    height: 40px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 12px;
+    background-color: black;
+    color: #FFF;
+    display: inline-flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color .3s cubic-bezier(.33, 1, .68, 1);
+}
+
+.community-review--container .review-writer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.community-review--container .review-writer p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px !important;
+  letter-spacing: -0.4px;
+}
+
+.community-review--container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  width:100%
+}
+
+.community-review--container .section-title {
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.community-edit-textarea{
+width: 100%;
+padding: 10px 0px;
+border: none !important;
+border-bottom: 1px solid #DBDBDB !important;
+font-size: 18px;}
+
+
+
+.community-review--container .review-writer span {
+  color: #AAA;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px !important;
+  letter-spacing: -0.35px;
+}
+
+.community-review--container .review-title {
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 160%; /* 28.8px */
+  letter-spacing: -0.45px;
+}
+
+.community-review--container .review-content {
+  overflow: hidden;
+  color: #767676;
+  text-overflow: ellipsis;
+  white-space: pre-line !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.4px;
+}
+
+
+.community-review--container .community-review--list {
+  overflow: hidden;
+}
+
+.community-review--container .community-review--list li {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  overflow: hidden;
+  padding: 12px 0;
+}
+
+.community-review--container .community-review--list li:last-child {
+  border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------*/
+
+

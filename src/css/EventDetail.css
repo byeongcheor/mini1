@@ -1,0 +1,18 @@
+/* EventDetail.css */
+.poster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;
+       
+}
+
+.poster img {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 700px;           
+    height: 850px;        
+} 
+
+

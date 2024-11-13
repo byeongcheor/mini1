@@ -1,0 +1,15 @@
+.button {
+    text-align: center;
+}
+.button>button{
+    width: 150px;height: 50px;
+}
+#lb{text-align:center;
+    font-size: 1.1em;
+   }
+#pre{ justify-content:space-between; text-align:center;
+    line-height:40px;
+    font-size:2em;}
+#pre input{ width:20%;
+    text-align:center;
+   }

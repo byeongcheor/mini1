@@ -1,0 +1,77 @@
+/* src/Pages/About_us.css */
+
+.Fbg {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  
+  position:relative;
+  display: flex;
+  flex-direction: column;
+}
+.Fbp{
+  height: 100vh;
+}
+.Fbg p {
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:3em;
+  color: #ffffff;
+  position:relative; top:300px;
+  animation: fadeIn 5s forwards;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+/* About_us.css */
+
+.image-slider .slick-slide {
+  display: inline-block;
+  margin: 0; 
+}
+
+.image-slider .slick-list {
+  padding: 0; 
+}
+
+.image-slider .slick-track {
+  display: flex; 
+  align-items: center; 
+}
+
+.image-slider .slick-dots li button:before{
+  color: white;
+}
+
+.map-container-1{
+  width:100%;
+}
+
+.map-container-2{
+  width: 60%;
+  height: 450px;
+  margin-top:10%;
+  margin-bottom: 10%;
+  align-items: center;
+  display: column;
+  justify-content: center;
+  margin-left: 18%;
+
+  
+}
+
+
+.map-container-2 h2, .map-container-2 h3{
+  color: #ffffff;
+
+}

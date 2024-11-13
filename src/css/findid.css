@@ -1,0 +1,104 @@
+#findidbody {
+    width: 100%;
+    margin:  auto; 
+    position: relative;
+}
+
+.findImg img{
+    margin:  auto; 
+    width: 100%;
+    vertical-align: middle;
+}
+#Fid {
+    opacity: 0.7;
+    margin: 0 auto;
+    margin-top: 273px;
+   background-color: white;
+   height: 323px; padding-top: 80px; width: 600px;
+   border-radius: 20px;
+   width: 500px;
+}
+.findMain{
+    position: absolute;
+    width: 100%;
+    margin:  auto; 
+    top: 70px;
+
+}
+#Fid .Login-form-center {
+    text-align: center;
+}
+
+#Fid .mb-3 {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#Fid input {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+#findidbody .button {
+    text-align: center;
+    width: 100%;
+}
+
+#findidbody .button > button {
+    width: 405px;
+    height: 50px;
+    border: 1px solid;
+    background-color: #353434;
+    border-radius: 10px;
+    font-size: 1.1em;
+    color: white;
+    margin-top: 10px;
+}
+
+#findidbody .button > button:hover,
+#findidbody .button > button:active,
+#findidbody .button > button:focus {
+    background-color: black;
+}
+
+#findidbody #find {
+    
+    text-align: center;
+}
+
+#Fid #menu {
+  
+   margin-top: -55px;
+   margin-bottom: 50px;
+    
+}
+#Fid #menu a{
+margin-left: 10px;
+text-decoration: none;
+color: #969696;
+}
+#findidbody a:hover,
+#findidbody a:active {
+    color: black;
+}
+
+#findidbody p {
+    width: 100%;
+  
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+    margin-bottom: 25px;
+}
+
+#findidbody .Error-message {
+    color: red;
+    font-size: 0.875em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}

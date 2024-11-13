@@ -1,0 +1,130 @@
+#profile {
+
+  margin:30px auto;
+  height: 600px;
+}
+
+#pfcontent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  margin-top: 100px;
+  min-height: 800px;
+  height: 100%;
+  padding-left: 2px;
+}
+
+#profile img {
+  width: 250px;
+  height: 250px;
+  margin-top: 80px;
+  border-radius: 1000px;
+}
+
+.profileP {
+  /* margin: 10px 0 0 50px; */
+  font-weight:bold;
+  font-size: 1.2em;
+}
+
+#profile button {
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.profile-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 250px; /* 이미지와 동일한 너비 */
+  height: 250px; /* 이미지와 동일한 높이 */
+  overflow: hidden;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1000px;
+}
+
+.changeimg {
+  position: absolute;
+  top: 418px;
+  left: 76px;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  width: 110px;
+}
+
+.profile-container:hover .changeimg {
+  display: block;
+}
+
+.save-button {
+  margin-top: 40px; /* 이미지와 버튼 사이에 여백 추가 */
+  padding: 10px 20px;
+  background-color: #4C4C4C;
+  color: white;
+  border: none;
+  margin-right: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 110px;
+}
+
+#pfcontent #menu {
+  width: 200px;
+  margin-left: 8px;
+  min-height: 800px;
+  height: 100%;
+  border-right: 1px solid #ccc;
+
+  box-sizing: border-box; /* 패딩을 포함한 전체 박스 크기 */
+}
+
+#pfcontent #menu ul {
+  list-style-type: none;
+  margin-top: 80px;
+  padding: 0; 
+  margin-bottom: 50px;
+
+}
+
+#pfcontent #menu ul div {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+#pfcontent #menu ul li {
+  margin-bottom: 20px; 
+}
+
+#pfcontent #menu ul li a {
+  text-decoration: none;
+  color: #4C4C4C;
+}
+#pfcontent #menu ul li a:hover {
+  
+  color: black;
+}
+
+
+#pfcontent #nike {
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+#test{
+   float: left;width: 100%;
+}
